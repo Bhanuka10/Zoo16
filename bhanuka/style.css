@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.register-body{
+    background:url(cute-puppy-group-sitting-looking-camera-indoors-generated-by-artificial-intelligence.jpg) ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
+}
+.pic-glass{
+    background: rgba(255, 255, 255, .1);
+    width: 350px;
+    height: 450px;
+    backdrop-filter: blur(8px);
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 30px;
+    border-right: 2px solid rgba(255, 255, 255, .2);
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    position: absolute;
+    margin-top: 5%;
+    left: 7%;
+
+}
+.details-glass{
+    background: rgba(255, 255, 255, .1);
+    width: 550px;
+    height: 450px;
+    backdrop-filter: blur(8px);
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 30px;
+    border-right: 2px solid rgba(255, 255, 255, .2);
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    position: absolute;
+    margin-top: 5%;
+    right: 7%;
+}
+#choosebut{
+    margin-top: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif ;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(3, 10, 16);
+    width: 400px;
+
+}
+.inter{
+    font-size: 25px;
+    font-weight:bolder;
+    color: rgb(63, 9, 9);
+    position: relative;
+    left: 10%;
+    margin-bottom: 10%;
+    
+    
+    
+}
+.details-glass form{
+    margin-top: 7%;
+}
+.choose{
+    border: 0;
+}
+.fill section{
+    margin-top: 40px;
+    background-color: aqua;
+}
+#textbox{
+    margin-top: 40px;
+    margin-left: 15%;
+    height: 25px;
+    border-radius:40px ;
+    width: 200px;
+}
+.inner{
+    font-size: 25px;
+    font-weight:bolder;
+    color: rgb(63, 9, 9);
+    position: relative;
+    left: 5%;
+    
+    padding: 30px;
+    top: 30%;
+    position: absolute;
+}
+.inner-age{
+    font-size: 25px;
+    font-weight:bolder;
+    color: rgb(63, 9, 9);
+    position: relative;
+    left: 5%;
+    margin-bottom: 20px;
+    padding: 30px;
+    top: 50%;
+    position: absolute;
+    
+}
+#agebox{
+    margin-top: 10px;
+    margin-left: 15%;
+    height: 25px;
+    border-radius:40px ;
+    width: 100px;
+}
+
+.sub-btn{
+    position: absolute;
+    padding: 8px 10px;
+    background-color: rgb(49, 6, 6);
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    top: 80%;
+    left: 80%;
+    border-radius: 50px;
+}
+.SUBMIT{
+    border: o;
+    background-color: rgb(49, 6, 6);
+    color: aliceblue;
+    cursor: pointer;
+}
+.ID-banner{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    
+
+}
+.idimage img{
+    width: 450px;
+    height: 550px;
+}
+.petID{
+    margin-top:100px ;
+    margin-left: 10%;
+}
+.petID h{
+    font-size: 45px;
+    -webkit-text-stroke: 2px aqua;
+    
+    color: aliceblue;
+    font-family: Arial Black;
+}
+
+.go-buuton{
+    margin-top: 30%;
+    margin-left: 43%;
+    background-color: bisque;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+.go-buuton button{
+    margin-top: 7px;
+    background-color:bisque;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+#username{
+    margin-top: 40px;
+    margin-left: 20px;
+    background-color: rgb(212, 211, 209);
+    width: 450px;
+    height: 35px;
+    border: 2px solid;
+    border-radius: 30px;
+}
+.add-history {
+    background: url('v870-tang-36.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.history-theme {
+    text-align: center;
+    padding-top: 4%;
+}
+
+.history-theme h1 {
+    font-size: 50px;
+    font-family: poppins;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.date-btn h{
+    color: rgb(252, 252, 252);
+    background-color: #2E7B73;
+    font-size: 20px;
+    padding:10px 20px;
+    border-radius: 20px;
+
+
+}
+.date-btn{
+    position: absolute;
+    left: 30%;
+    top: 33%;
+
+}
+.name-btn h{
+    color: rgb(252, 252, 252);
+    background-color: #2E7B73;
+    font-size: 20px;
+    padding:10px 20px;
+    border-radius: 20px;
+}
+.name-btn{
+    position: absolute;
+    left: 30%;
+    top: 50%;
+
+}
+.id-btn h{
+    color: rgb(252, 252, 252);
+    background-color: #2E7B73;
+    font-size: 20px;
+    padding:10px 20px;
+    border-radius: 20px;
+}
+.id-btn{
+    position: absolute;
+    left: 60%;
+    top: 50%;
+
+}
+
+
+.text{
+    position: absolute;
+    left: 45%;
+    top:65% ;
+
+}
+.submit{
+    border: solid 2px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+}

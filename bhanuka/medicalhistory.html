@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="add-history">
+        <div class="history-theme">
+            <h1>Add Medical History</h1>
+        </div>
+        <form action="submit.php" method="POST">
+            <div class="date-btn">
+                <h>Date</h>
+                <input type="date" class="date" name="date" required>
+            </div>
+            <div class="name-btn">
+                <h>Doctor Name</h>
+                <input type="text" class="name" name="doctor_name" required>
+            </div>
+            <div class="id-btn">
+                <h>Doctor ID</h>
+                <input type="number" class="id" name="doctor_id" required>
+            </div>
+            <div class="text">
+                <textarea rows="10" cols="15" placeholder="Add medical Details" class="text_area" name="medical_details" required></textarea><br>
+            </div>
+            <button type="submit" class="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
