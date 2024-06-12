@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Pet</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="register-body">
+        <div class="pic-glass"></div>
+        <div class="details-glass">
+            <form action="submit_pet.php" method="post">
+                <label class="inter">Species</label>
+                <div id="choosebut">
+                    <select class="choose" name="species" required>
+                        <option value="">Select your Pet</option>
+                        <option value="Dog">Dog</option>
+                        <option value="Cat">Cat</option>
+                        <option value="Cow">Cow</option>
+                        <option value="Parrot">Parrot</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="fill section">
+                    <h class="inner">Breed</h><br><br><br>
+                    <input type="text" name="breed" id="textbox" required>
+                </div>
+                <div class="fill section">
+                    <h class="inner-age">Age</h><br><br><br>
+                    <input type="text" name="age" id="agebox" required>
+                </div>
+                <div class="sub-btn">
+                    <button type="submit" class="SUBMIT">SUBMIT</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
